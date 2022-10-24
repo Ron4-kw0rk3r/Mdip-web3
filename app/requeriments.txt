@@ -1,0 +1,8 @@
+flask
+flask-pymongo
+python-dotenv
+dnspython
+pythondns
+requestes
+web3
+flask_web3

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+*{
+
+    margin: 0 ;
+    padding: 0;
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    /*reconfigure settings code optimize*/
+    
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    /*background: #202024;*/
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+}
+
+
+a{
+
+    text-decoration: none;
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+.main {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #000000;
+    border: 1px solid #000000;
+
+
+}
+
+
+.menu{
+
+    display: flex;
+    float: right;
+    margin: 5px;
+    padding: 5px 20px;
+    color: #000000;
+    font-weight: 400;
+    
+    transition: all ease 0.6s;
+}
+
+
+
+
+
+
+/* .menu .on {
+
+
+    color: rgba(255, 204, 0);
+
+} */ 
+
+.menu li a{
+
+    /*background-color: #0d1921 ;*/
+    margin: 4px;
+    padding: 3px 15px;
+    color: #f1f1f1;
+    font-weight: 400;
+    border: #00ff8c;
+    
+}
+
+.menu li input {
+
+    /*margin: 5px;*/
+    padding: 3px 15px;
+    color: #f1f1f1;
+    font-weight: 300;
+    border: #00ff8c;
+
+}
+
+
+
+
+.menu li a:hover{
+
+    transition: all ease 0.3s;
+}
+
+
+
+
+.logoo{
+
+    font-size: 2.1rem;
+    color: #00ff8c;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+
+}
+
+
+.empress{
+    
+    display:flex
+}
+
+
+.reference  {
+
+    text-decoration: none;
+    
+    color: #fff;
+}
+
+
+.web1 {
+
+    color: #fff;
+}
+
+span{
+
+    color: #00ff8c;
+}
+
+
+.othertrace {
+
+    padding-top: 15vh;
+    color: #fff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 23px;
+    
+
+
+}
+.elements-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.elements-right a {
+
+    margin: 0px 10px;
+
+}
+.elements-right a:hover i{
+    color: #cf2728;
+    transition: all ease 0.2s;
+
+}
+.content {
+    font-family: "Helvetica", sans-serif ;
+    color: #f1f1f1;
+
+}
+
+/* .main{ */
+/*    width: 100%; */ 
+/*    background-color: #202024; */
+/*    /*linear-gradient(to top , rgba(0, 0, 0, 0)50% , rgba(0, 0, 0, 0.6)50% );*/
+/*    background-position: center ; */ 
+/*    background-size: cover; */ 
+/*    height: 108vh; */ 
+
+
+
+#maint{
+
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+ /* maint-contend */ 

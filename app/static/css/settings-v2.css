@@ -1,0 +1,65 @@
+.modpartv1 {
+
+
+    box-sizing: border-box;
+    padding-left: 112px;
+    padding-top: 112px;
+    padding-right: 52px;
+    padding-left: 52px;
+
+}
+
+
+.view-fully {
+        
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 4%;
+    border-color: #00ffc8;
+    
+    box-sizing: border-box;
+
+}
+
+
+* {
+    
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.view-public {
+
+
+    box-sizing: border-box;
+
+    
+}
+
+
+.text-contv2 {
+
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    font-size: 50px;
+    
+    padding-left: 22px;
+    /*margin-top: 9% ;*/
+    letter-spacing: 4px;
+
+}
+
+.contv2-extend {
+
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    font-size: 32px;
+    
+    padding-left: 22px;
+    /*margin-top: 9% ;*/
+    letter-spacing: 4px;
+
+
+
+}

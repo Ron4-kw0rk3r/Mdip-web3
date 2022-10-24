@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+ 
+.bootlog{
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.upclient {
+    
+    position: relative;
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: var(--clr);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+    padding: 20px 22px;
+    transition: 0.4s;
+    align-items: center;
+    border-radius: 6px;
+
+}   
+
+.trop {
+
+    position: relative;
+}
+
+
+.upclient i {
+
+    position:absolute;
+    inset: 0;
+    display: block;
+
+}
+
+
+
+.upclient:hover {
+
+
+    background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 28px var(--clr);
+}
+
+.upclient:before  {
+
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #000000;
+
+
+}
+
+.upclient i::before {
+
+    content: '';
+    position: absolute;
+    top:0;
+    left:80%;
+    width: 10px;
+    height: 4px;
+    background: #27282c ;
+
+    /* syntax new animations not depend webkit */ 
+
+    transform: translate(-60%) skewX(322deg);
+    transition: 0.4s;
+}
+
+.upclient:hover i::before {
+
+    width: 20px;
+    left: 20%;
+}
+
+
+.upclient i::after {
+
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:20%;
+    width: 10px;
+    height: 4px;
+    background: #27282c ;
+
+    /* syntax new animations not depend webkit */ 
+
+    transform: translate(-60%) skewX(322deg);
+    transition: 0.4s;
+}
+
+.upclient:hover i::after {
+
+    width: 20px;
+    left: 80%;
+}
+
+
+
+
+
+
+.one{
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: #202024;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    /*padding: 10px 30px;*/
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+
+.one:hover {
+
+    background: var(--btr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 25px var(--btr);
+}
+
+
+
+.twu{
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: #202024;
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    /*padding: 10px 30px;*/
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+
+.twu:hover {
+
+    background: var(--btr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 25px var(--btr);
+}
+.try{
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: #202024;
+    color : #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    /*padding: 10px 30px;*/
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+.try:hover {
+
+    background: var(--btr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 25px var(--btr);
+}
+
+
+.four{
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: #202024;
+    color : #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    /*padding: 10px 30px;*/
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+.four:hover {
+
+    background: var(--btr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 25px var(--btr);
+}
+.five{
+
+    font-family:'Atkinson Hyperlegible', sans-serif;
+    background: #202024;
+    color : #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    /*padding: 10px 30px;*/
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+.five:hover {
+
+    background: var(--btr);
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 25px var(--btr);
+}

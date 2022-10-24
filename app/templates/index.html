@@ -1,0 +1,238 @@
+<!-- WEB SETIE MARKET V2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDIP Website</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css')}}">
+    <!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/img-src.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/img-cfg.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settingsv1-sectionv1.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings-v2.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/settings-v3.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/web-end.css')}}">
+    <!--<link rel="stylesheet"   href='static/css/style.css'>-->
+    <!-- fonts============================= -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/content.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet"> 
+    <!-- icon siteweb-->
+    <link rel="shortcut icon" href="/img/fav-icon.png">
+
+
+</head>
+
+<body>
+    <!-- create top var-->
+    <nav class="main">
+        <a href="#"  class="logoo">MDIP<span class="web1"></span></a>
+        <ul class="menu">
+           
+            <form action="/searching" method="POST">
+                <li><input type="submit" name="submit_button" value="search" class="one" style="--btr:#00ff8c" /></li>
+            </form>
+            <form action="/service" method="POST">
+                <li><input type="submit" name="submit_button1" value="services" class="twu" style="--btr:#00ff8c"/></li>
+            </form>
+            <form action="/contact" method="POST">
+                <li><input type="submit" name="submit_button2" value="contact" class="try" style="--btr:#00ff8c"/></li>
+            </form>
+            <form action="/shop" method="POST">
+                <li><input type="submit" name="submit_button3" value="shop" class="four" style="--btr:#00ff8c"/></li>
+            </form>
+            <form action="/about" method="POST">
+                <li><input type="submit" name="submit_button4" value="about" class="five" style="--btr:#00ff8c"/></li>
+            </form>
+        
+
+            
+        </ul>
+        
+        <!-- <div class="elements-right" -->
+            <!-- finder-->
+            
+        <!-- /div-->
+       
+
+    </nav>
+
+    <!-- nav contend-->
+    <!-- contend-->
+  
+    
+    <div class="uname">
+        
+        <div class="presentation">
+            <p class="content"></p>
+            <p class="othertrace"> Bienvenido a: </p>
+            <h1 class="reference"> <span>Mercado Digital</span> Inovador Profesional</h1>
+            <br>
+            <p class="content"> Este sitio le permite publicar: buscar , publicar , vender y mucho mas <br> un sitio abierto y libre seguro  en comunidad <br> especial y creativo en general   ,una variedad en contenido  y  secciones que ofrece  en contenido <br>  creado  con el proposito de extender a mas el libre comercion digital y con la  facilidad de uso y control </p>
+            
+        </div>
+        
+
+        <div class="creator-img">
+            <img src="/static/img/res/mdiplogv2.png" style="height:300px ; width: 300px; border-radius: 50%; margin: 10px 0 5px; margin-left: 35px;" alt="Mdip-web" >
+        </div>
+        
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="bootlog">
+        <form action="/get-login" method="POST">
+            <button type="submit" class="upclient"  style="--clr:#00ff8c" onclick="location.href='get-login.html'"><span class="trop">EMPEZAR</span><i></i></button>
+        </form>
+    </div>
+    <!-- content middle-->
+    <br>
+    <br>
+
+
+    <section class="content-async css-bsd">
+        <div class="w-full">  
+            <div class="wien-articuls">
+                
+                <div class="text-reference">
+                    <p>Publica / Explora </p>   
+                </div>
+                <div class="text-extencion">
+                    <p> un espacio de publicacion en el que ademas de publicar podras de compartir , tu invitacion en distintas plataformas  </p>
+                </div>
+                <img class="upper" src="/static/img/sect/art-image-v1.png" style="height:300px ; width:300px;"   alt="">
+                <div class="complement">
+                    <form action="get-public-started" method="POST">
+                        <button type="submit" class="jump" onclick="location.href='get-login.html'"><span class="b11">CONTENIDO</span></a></button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="modpartv1" >
+        <div class="view-fully">
+            <div class="wien-public">
+                <img class="artt" src="/static/img/sect/art-image-v1.png" style="height:300px ; width:300px;"   alt="">
+                <div class="text-contv2">
+                    <p>Novedades / Diferencias </p>
+                </div>
+                <div class="contv2-extend">
+                    <p>Cambios frecuentes en nuestra exploracion el sitio mantiene la estancia de nuestros usuarios</p>
+                </div>
+                <div class="meetpresst">
+                    <button><a> <span class="seeder">CONTENIDO</span></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="endsectv2">
+        <div class="get-starter">
+            <div class="posted-artt">
+                <img class="artt" src="/static/img/sect/art-image-v1.png" style="height:300px ; width:300px;"   alt="">
+            
+                <div class="view-sample">
+
+                    <p>Busca / Explora / Crea </p>
+
+                </div>
+                <div class="sample-extend">
+                    <p> Explora el contenido de otros usuarios en sus publicaciones , explora las novedades , articulos e informacion en registro, unete este mercado unete a MDIP</p>
+                </div>
+                <div class="presset-push">
+
+                    <button><a><span class="uppling">CONTENIDO</span></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <!-- section main contend-->
+    <section id="maint">
+        <!-- contenido web site-->
+        <div class="maint-cont">
+            <!--text contend-->
+            <div class="maint-text">
+                <span> Collection </span>
+                <h1> Contend confortable document </h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt quisquam corrupti ad facilis officia iste, error molestias assumenda tempore modi veniam quis quasi quaerat fugit ipsa dicta cum similique.</p>
+                <a href="#">Shop in market</a>
+            </div>
+            <!-- maint img==============-->
+            <div class="maint-img">
+                <img src="/static/img/sect/art-image-v2.png" alt="T-shirts">
+            </div>
+        </div>            
+    </section>
+
+    <!--<div class="elements-right">
+        <form action="/finder" method="GET">
+            <input  type="text" placeholder="find elements"/> -->        
+            <!-- cart-->
+    <!--
+            <a href="#" class="cart"><i class="fas fa-cart"></i> </a>
+            
+            <a href="#" class="user"> <i class="fas fa-user"> </i> </a>
+        </form>
+    </div>
+    -->
+  
+    <footer class="endpresent">
+        <div class="endweb">
+            <p>  all Right Reserved by MDIP - 2022 </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+        <!--<div class="nav">
+            <div class="icon">
+                <a class="logo">MDIP<span>WEB</span></h1> 
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">MDIP</a></li>
+                        <li> <a href="#">Servicios</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">Mercado</a></li>
+                    
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search">
+                <input type="finding" name="" placeholder="Buscar Articulo/Enunciado"> 
+                <a href="#" > <button class="btn1"> Buscar </button> </a>
+
+            </div>
+
+           
+        </div>
+    </div>
+    <nav>
+        <div>
+        </div>
+    </nav>
+    
+</body>
+</html>

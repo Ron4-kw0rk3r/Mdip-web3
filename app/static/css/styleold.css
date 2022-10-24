@@ -1,0 +1,187 @@
+
+.nav{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-top: 15px;
+
+}
+
+.logo {
+    /* position: absolute; */
+    font-size: 28px;
+    color: #39ca74;
+    padding-left: 0%;
+    
+    
+}
+
+span{
+    color: #F2F2F2;
+}
+
+.menu{
+
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+
+    float: left;
+    display: flex;
+
+    justify-content: center ;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 63px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family:  "Atkinson Hyperlegible", Helvetica, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover {
+
+
+    color: #ff9500;
+}
+
+.search {
+    width: 290px;
+    float: right;
+    margin-left: 240px;
+    /*color: cyan; */
+}
+
+.finding {
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #00ff84;
+    margin-top: 13px;
+    color: #f1f1f1;
+    border-right: none;
+    font-size: 10px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius: 5px; 
+}
+
+
+.btn1 {
+
+
+    width: 18px;
+    height:28px;
+    background: #00ff7b;
+    border: 33px solid #00ff7b;
+    margin-top: 13px;
+    color: #f1f1f1;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    text-align: center;
+}
+
+
+.btn1:focus {
+
+    outline:none;
+
+}
+
+.finding:focus{
+
+    outline: none;
+}
+
+
+.uname{
+
+
+    color:#f1f1f1;
+    height: auto;
+    margin: auto;
+}
+
+
+
+.plank {
+
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:#f1f1f1 ;
+    position: static;
+
+}
+.plank .content {
+
+
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.1px;
+    line-height: 30px;
+}
+
+
+.content h1 {
+
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    font-size: 50px;
+    
+    padding-left: 22px;
+    margin-top: 9% ;
+    letter-spacing: 2px;
+
+}
+
+.content .upclient{
+
+    width: 160px;
+    height: 40px;
+    background: #00ff84;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .upclient a {
+
+    text-decoration: none;
+    color: #100f0f;
+    transition: .3s ease;
+
+}
+
+.upclient:hover{
+
+    background-color: #d2f0f0;
+}
